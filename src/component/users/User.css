@@ -1,0 +1,28 @@
+#btn {
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  display: block;
+}
+
+#text-center {
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  margin: 4rem 0;
+  /* padding: 1.5rem; */
+  border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+#img {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}

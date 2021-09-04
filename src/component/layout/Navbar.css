@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.navbar {
+  background-color: #333;
+  color: #ffff;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 5px;
+  transition: 0.2s ease-in;
+}
+
+.navbar ul li a:hover {
+  background-color: darkgray;
+}
+
+.navbar i {
+  font-size: 2rem;
+}
+
+/* responsive navbar design */
+/* body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-mainbg {
+  background-color: #000;
+  padding: 0px;
+} */
